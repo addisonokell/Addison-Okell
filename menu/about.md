@@ -1,19 +1,7 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Welcome!
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
-
-### Getting Started
-
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
-
-### Example Content
-
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
-
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+Hi! I'm Addison Okell. I am from a small town in North Western Ontario called Red Lake. I graduated from Red Lake District High School in 2019 and started my undergraduate degree the same year at the Universtiy of Waterloo in Physics, but eventually changed to Mathematical Physics. I really developed my passion for Math in grade 8 when I was first taught linear equations. The idea that I could write down an equation and know exactly where every point was mapped to fascinated me and since then math has been one of my biggest hobbies. I hope that I will be able to do reseach in Theoretical Physics and have a job as a professor at a university. This blog will be a place where I can discuss things that interest me and post some of my studying notes for future me.
