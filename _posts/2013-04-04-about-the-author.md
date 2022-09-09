@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "About the Author"
-author: "Paul Le"
+title: "About Me"
+author: "Addison Okell"
 categories: journal
-tags: [documentation,sample]
+tags: [About]
 image: cutting.jpg
 ---
 
