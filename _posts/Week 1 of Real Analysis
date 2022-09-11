@@ -22,4 +22,4 @@ is an upper bound but smaller than every other upper bound we have a least upper
 than every other lower bound. If a set has a maximum value we define this as its max and Supremum denoted $Sup(S)$ for a set $S$. This also happens to be the set's least
 upper bound. When a set has a minimum value we define it as its min and Infimum denoted $Inf(S)$. This also happens to be the set's greatest lower bound. When a set does
 not include its max/min value or when a set is defined as a sequence that goes on forever, we say the set does not have a max/min. It may however still have a Supremum
-and or Infimum. Finally, we proved the Least Upper Bound Principle, which in most Real Analysis classes is part of the axioms called The Completeness Axiom 
+and or Infimum. Finally, we proved the Least Upper Bound Principle, which in most Real Analysis classes is part of the axioms called The Completeness Axiom.
