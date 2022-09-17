@@ -12,4 +12,10 @@ The first of these was the squeeze Theorem. The idea of the squeeze Theorem is t
 
 Next, we talked about the relation between bounded sets and convergent sequences. Mainly, a Theorem that says if a sequence $a_n$ converges in the real numbers than the set $\{a_n:n\in \mathbb{N}\}$ is bounded. This is a interesting Theorem, but it turns out its contrapositive is more useful. The contrapositive says if a sequence is unbounded it does not converge. This may be useful in determining whether a sequence of numbers converges since we have a good idea about what bounded sets look like from the previous week. 
 
-We then started to devolp some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ resprectively and $\alpha \in \mathbb{R}$, the four we covered in class were $\lim_{n\to\infty} a_n+b_n=L+M$, $\lim_{n\to\infty} \alpha a_n=\alpha L$, $\lim_{n\to\infty} a_n b_n=LM$, and $\lim_{n\to\infty} \frac{a_N}{b_n}=\frac{L}{M}$ for $M \neq 0$.
+We then started to devolp some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ resprectively and $\alpha \in \mathbb{R}$, the four we covered in class were $\lim_{n\to\infty} a_n+b_n=L+M$, $\lim_{n\to\infty} \alpha a_n=\alpha L$, $\lim_{n\to\infty} a_n b_n=LM$, and $\lim_{n\to\infty} \frac{a_N}{b_n}=\frac{L}{M}$ for $M \neq 0$. These rules make it much easier for us to calculate limits and negate the requriment of using the defintion, but must still be proven using thew definiton. A proof of the first is,
+
+proof of (1):
+
+We know $\|a_n-L\|<\epsilon_1$ for all $n \geq N_1$ and We know $\|b_n-M\|<\epsilon_2$ for all $n \geq N_2$. 
+Then we know $\|a_n-L\|+\|b_n-M\|<\epsilon_1+\epsilon_2$. 
+We also know by the triangle inequality $|(a_n-L)+(b_n-M)\| \leq \|a_n-L\|+\|b_n-L\|<\epsilon_1+\epsilon_2$ thus $\|(a_n-L)+(b_n-M)\|=\|(a_n+b_n)-(L+M)\|<\epsilon_1+\epsilon_2$ for some $n \geq max{N_1,N_2}$. This completes the proof.
