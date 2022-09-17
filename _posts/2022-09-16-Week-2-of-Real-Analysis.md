@@ -18,4 +18,4 @@ proof of (1):
 
 We know $\|a_n-L\|<\epsilon_1$ for all $n \geq N_1$ and We know $\|b_n-M\|<\epsilon_2$ for all $n \geq N_2$. 
 Then we know $\|a_n-L\|+\|b_n-M\|<\epsilon_1+\epsilon_2$. 
-We also know by the triangle inequality $|(a_n-L)+(b_n-M)\| \leq \|a_n-L\|+\|b_n-L\|<\epsilon_1+\epsilon_2$ thus $\|(a_n-L)+(b_n-M)\|=\|(a_n+b_n)-(L+M)\|<\epsilon_1+\epsilon_2$ for some $n \geq max{N_1,N_2}$. This completes the proof.
+We also know by the triangle inequality $|(a_n-L)+(b_n-M)\| \leq \|a_n-L\|+\|b_n-L\|<\epsilon_1+\epsilon_2$ thus $\|(a_n-L)+(b_n-M)\|=\|(a_n+b_n)-(L+M)\|<\epsilon_1+\epsilon_2$ for some $n \geq max\{N_1,N_2\}$ and thus $a_n+b_n$ converge to $L+M$. This completes the proof.
