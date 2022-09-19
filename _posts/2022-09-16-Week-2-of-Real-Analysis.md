@@ -21,7 +21,7 @@ $$
 
 $$
 \tag{2}
-\lim_{n\to\infty} \alpha a_n=\alpha L \
+\lim_{n\to\infty} \alpha a_n=\alpha L 
 $$
 
 $$
