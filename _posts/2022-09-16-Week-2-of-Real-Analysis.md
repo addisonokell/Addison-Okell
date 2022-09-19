@@ -48,7 +48,7 @@ We want $\|\alpha a_n-\alpha L\|<\epsilon$ for all $n \geq N$.
 So consider $\|\alpha a_n-\alpha L\|<\epsilon$.
 We can say $\|\alpha a_n-\alpha L\|= \|\alpha \| \|a_n-L\|<\epsilon \implies \|a_n-L\|< \frac{\epsilon}{\|\alpha \|}$ for all $n \geq N$
 since we know $a_n$ has limit $L$.
-So we can say $\|\alpha\|\|a_n-L\|<\|\alpha\|\frac{\epsilon}{\|\alpha\|}=\epsilon$ for all $n \geq N$ as we wanted.
+So we can say $\|\alpha\|\|a_n-L\|<\|\alpha\|\frac{\epsilon}{\|\alpha\|}=\epsilon$ for all $n \geq N$ as we wanted. This completes the proof.
 
 proof of (4):
 
