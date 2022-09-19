@@ -71,6 +71,8 @@ $$<\|\frac{1}{b}\| \frac{\epsilon}{2\|\frac{1}{b}\|} + \|\frac{L}{bM}\| \frac{\e
 
 $$=\frac{\epsilon}{2} + \frac{\epsilon}{2}=\epsilon$$
 
+for all $n \geq N=max(N_1,N_2)$.
+
 As we requried. This completes the proof.
 
 Finally, we defined monotone sequences. A monotone increasing sequence is a sequence such that $a_{n+1} \geq a_n \forall n\in \mathbb{N}$. A strictly monotone increasing sequence is a sequence such that $a_{n+1} > a_n \forall n\in \mathbb{N}$. We can analogously define monotone decreasing sequences. We then quickly stated a Theorem about monotone sequences, which is a monotone increasing sequence that is bounded converges and a monotone decreasing sequence that is bounded converges. 
