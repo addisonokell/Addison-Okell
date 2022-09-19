@@ -51,7 +51,9 @@ since we know $a_n$ has limit $L$.
 So we can say $\|\alpha\|\|a_n-L\|<\|\alpha\|\frac{\epsilon}{\|\alpha\|}=\epsilon$ for all $n \geq N$ as we wanted.
 
 proof of (4):
+
 We want $\|\frac{a_n}{b_n}-\frac{L}{M}\|<\epsilon$ for all $n \geq N$. 
+
 Now we can write this as $\|\frac{a_n}{b_n}-\frac{L}{M}\|=\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\|$. Now by the triangle inequailty we have,
 $\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}\|=\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|$. Since we know $b_n$ is a bounded sequence by the earlier Theorem we know there is some $b$ that is a upper bound for the sequence so that $\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|< \|\frac{1}{b}\|\|a_n-L\|+\|-\|\frac{L}{bM}\|\|b_n-M\|$$
 
