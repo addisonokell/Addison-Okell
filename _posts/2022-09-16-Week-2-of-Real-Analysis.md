@@ -12,7 +12,9 @@ The first of these was the Squeeze Theorem. The idea of the Squeeze Theorem is t
 
 Next, we talked about the relationship between bounded sets and convergent sequences. Mainly, a Theorem that says if a sequence $a_n$ converges in the real numbers then the set { $a_n:n\in \mathbb{N}$ } is bounded. This is an interesting Theorem, but it turns out its contrapositive is more useful. The contrapositive says if a sequence is unbounded it does not converge. This may be useful in determining whether a sequence of numbers converges since we have a good idea about what bounded sets look like from the previous week. 
 
-We then started to develop some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ respectively and $\alpha \in \mathbb{R}$, the four we covered in class were $\lim_{n\to\infty} a_n+b_n=L+M$, $\lim_{n\to\infty} \alpha a_n=\alpha L$, $\lim_{n\to\infty} a_n b_n=LM$, and $\lim_{n\to\infty} \frac{a_n}{b_n}=\frac{L}{M}$ for $M \neq 0$. These rules make it much easier for us to calculate limits and negate the requirement of using the definition, but must still be proven using the definition. A proof of the first is,
+We then started to develop some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ respectively and $\alpha \in \mathbb{R}$, the four we covered in class were 
+$$\lim_{n\to\infty} a_n+b_n=L+M$$
+$$\lim_{n\to\infty} \alpha a_n=\alpha L$$ $$\lim_{n\to\infty} a_n b_n=LM$$, and $$\lim_{n\to\infty} \frac{a_n}{b_n}=\frac{L}{M}$$ for $M \neq 0$. These rules make it much easier for us to calculate limits and negate the requirement of using the definition, but must still be proven using the definition. A proof of the first is,
 
 proof of (1):
 
