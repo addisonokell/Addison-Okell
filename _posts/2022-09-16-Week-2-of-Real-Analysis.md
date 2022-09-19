@@ -63,13 +63,13 @@ Knowing this, we can write,
 
 $\| \frac{a_n}{b_n}-\frac{L}{M} \| \leq \| \frac{1}{b_n} \| \|a_n-L\|+\|-L\| \|\frac{1}{b_n}-\frac{1}{M}\|$
 
-$$=\|\frac{1}{b_n}\| \|a_n-L\|+\|\frac{L}{b_nM}\| \|b_n-M\|$$
+$=\|\frac{1}{b_n}\| \|a_n-L\|+\|\frac{L}{b_nM}\| \|b_n-M\|$
 
-$$< \|\frac{1}{b}\| \|a_n-L\|+\|\frac{L}{bM}\| \|b_n-M\|$$
+$< \|\frac{1}{b}\| \|a_n-L\|+\|\frac{L}{bM}\| \|b_n-M\|$
 
-$$<\|\frac{1}{b}\| \frac{\epsilon}{2\|\frac{1}{b}\|} + \|\frac{L}{bM}\| \frac{\epsilon}{2\|\frac{L}{bM}\|}$$
+$<\|\frac{1}{b}\| \frac{\epsilon}{2\|\frac{1}{b}\|} + \|\frac{L}{bM}\| \frac{\epsilon}{2\|\frac{L}{bM}\|}$
 
-$$=\frac{\epsilon}{2} + \frac{\epsilon}{2}=\epsilon$$
+$=\frac{\epsilon}{2} + \frac{\epsilon}{2}=\epsilon$
 
 for all $n \geq N=max(N_1,N_2)$.
 
