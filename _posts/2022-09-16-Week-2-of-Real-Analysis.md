@@ -61,7 +61,7 @@ Now since we know $a_n$ and $b_n$ converge and there limits are $L$ and $M$ we c
 
 Knowing this, we can write,
 
-$$\|\frac{a_n}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}\|$$
+$$\| \frac{a_n}{b_n}-\frac{L}{M} \| \leq \| \frac{1}{b_n} \| \|a_n-L\|+\|-L\| \|\frac{1}{b_n}-\frac{1}{M}\|$$
 
 $$=\|\frac{1}{b_n}\| \|a_n-L\|+\|\frac{L}{b_nM}\| \|b_n-M\|$$
 
