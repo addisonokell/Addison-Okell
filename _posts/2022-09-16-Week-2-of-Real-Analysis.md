@@ -14,7 +14,7 @@ Next, we talked about the relationship between bounded sets and convergent seque
 
 We then started to develop some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ respectively and $\alpha \in \mathbb{R}$, the four we covered in class were 
 
-$$\begin{equation}\lim_{n\to\infty} a_n+b_n=L+M\end{equation}$$ 
+\begin{equation}$$\lim_{n\to\infty} a_n+b_n=L+M$$\end{equation}
 $$\begin{equation}\lim_{n\to\infty} \alpha a_n=\alpha L\end{equation}$$ 
 $$\begin{equation}\lim_{n\to\infty} a_n b_n=LM\end{equation}$$ 
 $$\begin{equation}\lim_{n\to\infty} \frac{a_n}{b_n}=\frac{L}{M}\end{equation}$$ 
