@@ -48,6 +48,11 @@ We want $\|\alpha a_n-\alpha L\|<\epsilon$ for all $n \geq N$.
 So consider $\|\alpha a_n-\alpha L\|<\epsilon$.
 We can say $\|\alpha a_n-\alpha L\|= \|\alpha \| \|a_n-L\|<\epsilon \implies \|a_n-L\|< \frac{\epsilon}{\|\alpha \|}$ for all $n \geq N$
 since we know $a_n$ has limit $L$.
-So we can say $\|\alpha\|\|a_n-L\|<\|\alpha\|\frac{\epsilon}{\|\alpha\|}=\epsilon$ for all $n \geq N$.
+So we can say $\|\alpha\|\|a_n-L\|<\|\alpha\|\frac{\epsilon}{\|\alpha\|}=\epsilon$ for all $n \geq N$ as we wanted.
+
+proof of (4):
+We want $\|\frac{a_n}{b_n}-\frac{L}{M}\|<\epsilon$ for all $n \geq N$. 
+Now we can write this as $\|\frac{a_n}{b_n}-\frac{L}{M}\|=\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\|$. Now by the triangle inequailty we have,
+$\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}$
 
 Finally, we defined monotone sequences. A monotone increasing sequence is a sequence such that $a_{n+1} \geq a_n \forall n\in \mathbb{N}$. A strictly monotone increasing sequence is a sequence such that $a_{n+1} > a_n \forall n\in \mathbb{N}$. We can analogously define monotone decreasing sequences. We then quickly stated a Theorem about monotone sequences, which is a monotone increasing sequence that is bounded converges and a monotone decreasing sequence that is bounded converges. 
