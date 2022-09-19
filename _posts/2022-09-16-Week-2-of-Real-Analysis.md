@@ -19,6 +19,7 @@ $$
 \lim_{n\to\infty} a_n+b_n=L+M 
 \tag{1}
 \end{equation}
+\label{1}
 $$
 
 $$
