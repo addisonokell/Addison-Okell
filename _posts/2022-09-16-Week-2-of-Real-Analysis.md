@@ -67,7 +67,7 @@ $$=\|\frac{1}{b_n}\| \|a_n-L\|+\|\frac{L}{b_nM}\| \|b_n-M\|$$
 
 $$< \|\frac{1}{b}\| \|a_n-L\|+\|\frac{L}{bM}\| \|b_n-M\|$$
 
-$$<\|\frac{1}{b}\| \|\frac{\epsilon}{2\|\frac{1}{b}\|} + \|\frac{L}{bM}\|\frac{\epsilon}{2\|\frac{L}{bM}\|}$$
+$$<\|\frac{1}{b}\| \frac{\epsilon}{2\|\frac{1}{b}\|} + \|\frac{L}{bM}\| \frac{\epsilon}{2\|\frac{L}{bM}\|}$$
 
 $$=\frac{\epsilon}{2} + \frac{\epsilon}{2}=\epsilon$$
 
