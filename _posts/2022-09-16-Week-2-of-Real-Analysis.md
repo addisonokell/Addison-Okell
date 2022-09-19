@@ -14,10 +14,21 @@ Next, we talked about the relationship between bounded sets and convergent seque
 
 We then started to develop some algebraic rules for limits. Assuming $a_n,b_n$ converge to $L,M$ respectively and $\alpha \in \mathbb{R}$, the four we covered in class were 
 
-\begin{equation} \lim_{n\to\infty} a_n+b_n=L+M \end{equation}
-$$\begin{equation}\lim_{n\to\infty} \alpha a_n=\alpha L\end{equation}$$ 
-$$\begin{equation}\lim_{n\to\infty} a_n b_n=LM\end{equation}$$ 
-$$\begin{equation}\lim_{n\to\infty} \frac{a_n}{b_n}=\frac{L}{M}\end{equation}$$ 
+\begin{equation} 
+\lim_{n\to\infty} a_n+b_n=L+M 
+\end{equation}
+
+\begin{equation}
+\lim_{n\to\infty} \alpha a_n=\alpha L \
+end{equation}
+
+\begin{equation}
+\lim_{n\to\infty} a_n b_n=LM
+\end{equation}
+
+\begin{equation}
+\lim_{n\to\infty} \frac{a_n}{b_n}=\frac{L}{M}
+\end{equation}
 
 for $M \neq 0$. These rules make it much easier for us to calculate limits and negate the requirement of using the definition, but must still be proven using the definition. A proof of the first is,
 
