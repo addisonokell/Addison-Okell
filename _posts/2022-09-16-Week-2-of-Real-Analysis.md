@@ -55,6 +55,18 @@ proof of (4):
 We want $\|\frac{a_n}{b_n}-\frac{L}{M}\|<\epsilon$ for all $n \geq N$. 
 
 Now we can write this as $\|\frac{a_n}{b_n}-\frac{L}{M}\|=\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\|$. Now by the triangle inequailty we have,
-$\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}\|=\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|$. Since we know $b_n$ is a bounded sequence by the earlier Theorem we know there is some $b$ that is a upper bound for the sequence so that $\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|< \|\frac{1}{b}\|\|a_n-L\|+\|-\|\frac{L}{bM}\|\|b_n-M\|$$
+$\|\frac{a_n}{b_n}-\frac{L}{b_n}+\frac{L}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}\|=\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|$. Since we know $b_n$ is a bounded sequence by the earlier Theorem we know there is some $b$ that is a upper bound for the sequence so that $\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|< \|\frac{1}{b}\|\|a_n-L\|+\|\frac{L}{bM}\|\|b_n-M\|$$
+
+Now since we know $a_n$ and $b_n$ converge and there limits are $L$ and $M$ we can say, $\|\frac{1}{b}\|\|a_n-L\|<\frac{\epsilon}{2} \implies \frac{\epsilon}{2\|\frac{1}{b}\|}$ for all $n \geq N_1$ and $\|\frac{L}{bM}\|\|b_n-M\|<\frac{\epsilon}{2\|\frac{L}{bM}\|} \implies \frac{\epsilon}{2}$ for all $n \geq N_2$.
+
+Knowing this, we can write,
+
+$$\|\frac{a_n}{b_n}-\frac{L}{M}\| \leq \|\frac{1}{b_n}\|\|a_n-L\|+\|-L\|\|\frac{1}{b_n}-\frac{1}{M}\|$$
+
+$$=\|\frac{1}{b_n}\|\|a_n-L\|+\|\frac{L}{b_nM}\|\|b_n-M\|$$
+
+$$< \|\frac{1}{b}\|\|a_n-L\|+\|\frac{L}{bM}\|\|b_n-M\|$$
+
+$$<
 
 Finally, we defined monotone sequences. A monotone increasing sequence is a sequence such that $a_{n+1} \geq a_n \forall n\in \mathbb{N}$. A strictly monotone increasing sequence is a sequence such that $a_{n+1} > a_n \forall n\in \mathbb{N}$. We can analogously define monotone decreasing sequences. We then quickly stated a Theorem about monotone sequences, which is a monotone increasing sequence that is bounded converges and a monotone decreasing sequence that is bounded converges. 
