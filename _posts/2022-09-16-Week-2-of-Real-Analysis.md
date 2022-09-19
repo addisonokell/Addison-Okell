@@ -18,8 +18,7 @@ $$
 \begin{equation}
 \lim_{n\to\infty} a_n+b_n=L+M 
 \end{equation}
-\label{eqn:one}
-$$
+$$\label{eqn:one}
 
 $$
 \tag{2}
