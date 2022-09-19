@@ -16,7 +16,7 @@ We then started to develop some algebraic rules for limits. Assuming $a_n,b_n$ c
 
 $$
 \begin{equation}
-\lim_{n\to\infty} a_n+b_n=L+M \label{eq:one}
+\lim_{n\to\infty} a_n+b_n=L+M \label{1}
 \end{equation}
 $$
 
