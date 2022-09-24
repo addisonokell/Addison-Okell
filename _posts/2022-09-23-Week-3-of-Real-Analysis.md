@@ -14,4 +14,4 @@ We finally stated a tiny Theoreom that will prove to be useful in proving sequen
 
 Our next topic was a pretty popular subject Cauchy Sequences. Cauchy sequences are so fundemental because they allow us to fully understand the convergence of a sequence without trying to pick a candiate limit before hand. When using the defintion of a limit one must first make a educated guess about what they beleive the limit of the sequence should be. Instead we define a Cauchy sequence as 
 
-$$|a_n-a_m|<\epsilon,  \forall n,m \geq N, n,m,N \in \mathbb{N}$$
+$$|a_n-a_m|<\epsilon,  \forall n,m \geq N,   n,m,N \in \mathbb{N}$$
