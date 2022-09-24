@@ -6,9 +6,9 @@ categories: Real Analysis
 tags: [Real Analysis]
 ---
 
-We started off this week with the Nested Interveral Lemma, which essentially states that any intersection of closed subsets is non-empty. This is useful because we can use this in a later Theorem to show every bounded sequence has a convergent subsequence.
+We started this week with the Nested Interval Lemma, which essentially states that any intersection of closed subsets is non-empty. This is useful because we can use this in a later Theorem to show every bounded sequence has a convergent subsequence.
 
-This leads us to the defintion of a subsequence. If we have a sequence $a_n, n\in\mathbb{N}$ then ${a_n}_k, k\in \mathbb{N}$ is a subsequence of $a_n$. We can now define the Bolzano–Weierstrass Theorem. This states that every bounded sequence of real numbers has a convergent subsequence. To prove this we take a bound of the sequence and break it up into two intervals. We then take the interval with infinite points of the sequence and split it up into two intervals. We continue in this fashion and the Nested Interval Lemma tells us none of these intervals will ever be empty. Doing this we converge on a limit and picking a point in the sequence at each stage gives us a subsequence to the limit we converge to. 
+This leads us to the defintion of a subsequence. If we have a sequence $a_n, n\in\mathbb{N}$ then ${a_n}_k, k\in \mathbb{N}$ is a subsequence of $a_n$. We can now define the Bolzano–Weierstrass Theorem. This states that every bounded sequence of real numbers has a convergent subsequence. To prove this we take a bound of the sequence and break it up into two intervals. We then take the interval with infinite points of the sequence and split it up into two intervals. We continue in this fashion and the Nested Interval Lemma tells us none of these intervals will ever be empty. By doing this we converge on a limit and picking a point in the sequence at each stage gives us a subsequence to the limit we converge to.
 
 We finally stated a tiny Theoreom that will prove to be useful in proving sequences dont converge and that is, every subsequence of a convergent sequence converge to the same limit as the orginal sequence. So we could show subsequences of a sequence converge to different limits telling us the orginal sequence does not converge.
 
