@@ -14,4 +14,8 @@ We finally stated a tiny Theoreom that will prove to be useful in proving sequen
 
 Our next topic was a pretty popular subject Cauchy Sequences. Cauchy sequences are so fundemental because they allow us to fully understand the convergence of a sequence without trying to pick a candiate limit before hand. When using the defintion of a limit one must first make a educated guess about what they beleive the limit of the sequence should be. Instead we define a Cauchy sequence as 
 
-$$|a_n-a_m|<\epsilon,  \forall n,m \geq N,   n,m,N \in \mathbb{N}$$
+$$|a_n-a_m|<\epsilon,  \forall n,m \geq N$$
+
+With $n,m,N \in \mathbb{N}$. So instead of looking at how a sequence converges to a limit, we are looking at the difference between terms in the sequence and asking if we can always find a point in the sequence such that we will always be within $\epsilon$ of another point in the sequence. We then stated a Theorem about Cuachy sequences, mainly every Cauchy sequence is bounded. 
+
+Finally we defined what a complete subset is of $\mathbb{R}$ is. A complete subset is one that for every Cuachy sequence in the subset, it converges to a point in the subset. We then stated in a Theorem that every Cuachy sequence of the real numbers converges and therefore $\mathbb{R}$ is complete.
