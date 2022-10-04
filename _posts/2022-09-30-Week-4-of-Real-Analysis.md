@@ -7,12 +7,7 @@ Next we have a small Theorem which says that if $\sum_{n=1}^{\infty} a_n$ conver
 2. For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n \geq N$ we have $|\sum_{k=n+1}^{\infty} a_k| < \epsilon$.
 3. For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n,m \geq N$ we have $|\sum_{k=n+1}^{m} a_k| < \epsilon$.
 
-We then stated a propisiton, that is if $a_k \geq 0$ for $k \geq 1$ and $S_n=\sum_{k=1}^{n} a_k$ then 
-1. $S_n$ is bounded above so $\sum_{k=1}^{\infty} a_k$ converges.
-
-or 
-
-2. $S_n$ is not bounded above so $\sum_{k=1}^{\infty} a_k$ diverges.
+We then stated a propisiton, that is if $a_k \geq 0$ for $k \geq 1$ and $S_n=\sum_{k=1}^{n} a_k$ then $S_n$ is bounded above so $\sum_{k=1}^{\infty} a_k$ converges or $S_n$ is not bounded above so $\sum_{k=1}^{\infty} a_k$ diverges.
 
 We then moved on to types of series and how to show series are convergent or not. First we defined the geometric series, which has form $\sum_{n=0}^{\infty} ar^n$ when $a \neq 0$. When $|r|<1$ we have the series is convergent and equals $\frac{a}{1-r}$. Next, we talked about the comparison test, which lets us comape a series to an already knwon series. For exmaple if we have,
 $$|\sum_{n=1}^{\infty} a_n| \leq \sum_{n=0}^{\infty} b_n$$
