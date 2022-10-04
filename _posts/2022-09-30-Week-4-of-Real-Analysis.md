@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Week 4 of Real Analysis"
+author: "Addison Okell"
+categories: Real Analysis
+tags: [Real Analysis]
+---
 This week we started by introducing series. For a sequence $a_n$ we can define a series by summing each term in the sequence to infinity. We represent this a 
 $\sum_{n=1}^{\infty} a_n$. We can also talk about partial sums of series, which we denote $S_n=\sum_{i=1}^{n}a_i$. These series are obviously very closely related to sequences and this is because we can talk about convergence and divergence of these series. We say a series converges if the summation of all points in the sequence equal a finite number, otherwise it diverges. 
 
