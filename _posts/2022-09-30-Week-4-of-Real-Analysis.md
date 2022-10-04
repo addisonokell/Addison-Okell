@@ -12,9 +12,9 @@ Next we have a small Theorem which says that if $\sum_{n=1}^{\infty} a_n$ conver
 
 The series converges.
 
-For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n \geq N$ we have $|\sum_{k=n+1}^{\infty} a_k| < \epsilon$.
+For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n \geq N$ we have $| \sum_{k=n+1}^{\infty} a_k | < \epsilon$.
 
-For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n,m \geq N$ we have $|\sum_{k=n+1}^{m} a_k| < \epsilon$.
+For every $\epsilon > 0$ there is an $N \in \mathbb{N}$ such that for all $n,m \geq N$ we have $| \sum_{k=n+1}^{m} a_k | < \epsilon$.
 
 We then stated a propisiton, that is if $a_k \geq 0$ for $k \geq 1$ and $S_n=\sum_{k=1}^{n} a_k$ then $S_n$ is bounded above so $\sum_{k=1}^{\infty} a_k$ converges or $S_n$ is not bounded above so $\sum_{k=1}^{\infty} a_k$ diverges.
 
