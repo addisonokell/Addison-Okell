@@ -28,4 +28,8 @@ where $v_i$ is the componets of the vector $\vec{v}$. This norm mesures the leng
 
 $$< \vec{x},\vec{x} > =\|\vec{x}\|^2$$ 
 
-where $\<\vec{x},\vec{x}\>$ is the dot product of $\vec{x}$ with itself. The Cuachy-Shwarz inequailty then says that for any two vectors $\vec{x}, \vec{y}$ we have $$\|\<\vec{x},\vec{y}\>\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$$ The proof of this is quite simple, consider the square of the 
+where $<\vec{x},\vec{x}>$ is the dot product of $\vec{x}$ with itself. The Cuachy-Shwarz inequailty then says that for any two vectors $\vec{x}, \vec{y}$ we have 
+
+$$<\vec{x},\vec{y}>\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$$ 
+
+The proof of this is quite simple, consider the square of the 
