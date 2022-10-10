@@ -20,7 +20,7 @@ Thus $\sum_{k=1}^{\infty} a_{\sigma(k)} = L$.
 
 We then stated the Rearragnemnt Rheorem that says if a series is condionally convergent then for every real number $L$ there is a rearrganment of the series that converges to L.
 
-We then moved to the basic topology of $\mathbb{R}^n$, starting with a review of Linear Algebra. The main points we discussed were the eculdiean norm, Cauchy-Schwarz ineqauilty, the triangle ineqauilty and orthonormal sets. Breifly, the eculdian norm is the regular norm to mesure distance in a vector space. It is the equation 
+We then moved to the basic topology of $\mathbb{R}^n$ (The section I was mostg excited for), starting with a review of Linear Algebra. The main points we discussed were the eculdiean norm, Cauchy-Schwarz ineqauilty, the triangle ineqauilty and orthonormal sets. Breifly, the eculdian norm is the regular norm to mesure distance in a vector space. It is the equation 
 
 $$\|\vec{v}\|=(\sum_{i=1}^{n} \|v_i\|^2)^{\frac{1}{2}}$$ 
 
@@ -50,4 +50,8 @@ $$=\sum_{i=1}^{n}\sum_{j=1}^{n} (x_iy_j-x_jy_i)^2 \geq 0$$
 
 Thus we have proved the statement through a tutology.
 
-We then quickly stated the trinagle ineqaulity in $\mathbb{R}^n$, which is as we expect $\|\|\vec{x}+\vec{y}\|\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$. Next, the defintion of a orthonormal set was reviewed. A set of vectors $\{\vec{v_1}, \vec{v_2}, ... , \vec{v_n}\}$ is orthonormal is the norm of every vector with another is the kroncker delta. A quick lemme was presented about orthonormal sets that says the norm of a othronormal set where every vector is multipled by a constant is the root of the sum of the square of each constant (Try toi say that 10 times fast!). We then started to generalize our previous results. Of course we started with the convergence of a sequence in $\mathbb{R}^n$. The basic idea is the same, the distance (or norm) between the limit and the sequence gets very small. Formally we say for some sequence $\vec{a_n}$ that $\vec{a_n}$ converges if for some $\epsilon > 0$ there exists an $N$ such that for all $n\geq N$ we have $\|\|\vec{a_n}-\vec{L}\|\| < \epsilon$.
+We then quickly stated the trinagle ineqaulity in $\mathbb{R}^n$, which is as we expect $\|\|\vec{x}+\vec{y}\|\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$. Next, the defintion of a orthonormal set was reviewed. A set of vectors $\{\vec{v_1}, \vec{v_2}, ... , \vec{v_n}\}$ is orthonormal is the norm of every vector with another is the kroncker delta. A quick lemme was presented about orthonormal sets that says the norm of a othronormal set where every vector is multipled by a constant is the root of the sum of the square of each constant (Try toi say that 10 times fast!). We then started to generalize our previous results. Of course we started with the convergence of a sequence in $\mathbb{R}^n$. The basic idea is the same, the distance (or norm) between the limit and the sequence gets very small. Formally we say for some sequence $\vec{a_n}$ that $\vec{a_n}$ converges if for some $\epsilon > 0$ there exists an $N$ such that for all $k\geq N$ we have $\|\|\vec{a_k}-\vec{L}\|\| < \epsilon$. Then a very useful Lemma, that is if the sequence converges if and only if every sequence of each coordinate converges to the corrosponding component of the limit vector. This makes sense inuititvely since we expect that if a sequence converges the parts that build that sequence also converge. 
+
+We then began to alk about closed sets. We first defined a limit points of a set. A point of a set A, which is a subset of $\mathbb{R}^n$, is a limit point if there exists a sequence in A such that it converges to that point. A set is then closed if it contains all of its limit points. 
+
+
