@@ -26,6 +26,6 @@ $$\|\vec{v}\|=(\sum_{i=1}^{n} \|v_i\|^2)^{\frac{1}{2}}$$
 
 where $v_i$ is the componets of the vector $\vec{v}$. This norm mesures the length of a vector. An important property of the norm is 
 
-$$\< \vec{x},\vec{x} \> =\|\vec{x}\|^2$$ 
+$$< \vec{x},\vec{x} > =\|\vec{x}\|^2$$ 
 
 where $\<\vec{x},\vec{x}\>$ is the dot product of $\vec{x}$ with itself. The Cuachy-Shwarz inequailty then says that for any two vectors $\vec{x}, \vec{y}$ we have $$\|\<\vec{x},\vec{y}\>\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$$ The proof of this is quite simple, consider the square of the 
