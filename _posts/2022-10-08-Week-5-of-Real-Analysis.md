@@ -32,4 +32,6 @@ where $<\vec{x},\vec{x}>$ is the dot product of $\vec{x}$ with itself. The Cuach
 
 $$\|<\vec{x},\vec{y}>\| \leq \|\|\vec{x}\|\|\|\|\vec{y}\|\|$$ 
 
-The proof of this is quite simple, consider the square of the 
+The proof of this is quite simple, square both sides and multiple them by two. Then we can write,
+
+$$0 \leq 2\|\|\vec{x}\|\|\|\|\vec{y}\|\|^2-2\|<\vec{x},\vec{y}>\|^2$$ 
