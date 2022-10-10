@@ -38,4 +38,4 @@ $$0 \leq 2\|\|\vec{x}\|\|\|\|\vec{y}\|\|^2-2\|<\vec{x},\vec{y}>\|^2$$
 
 expanding this to summation notation we have,
 
-$$2(\sum_{i=1}^{n} x_i \sum_{i=1}^{n} y_i)^2-2(\sum_{j=1}^{n} x_jy_j)$$
+$$2(\sum_{i=1}^{n} x_i \sum_{i=1}^{n} y_i)^2-2(\sum_{j=1}^{n} x_jy_j)^2$$
