@@ -42,4 +42,8 @@ $$2(\sum_{i=1}^{n} x_i^2) (\sum_{i=1}^{n} y_i^2)-2(\sum_{j=1}^{n} x_jy_j)^2$$
 
 $$=2\sum_{i=1}^{n}\sum_{j=1}^{n} x_i^2 y_j^2-2(\sum_{i=1}^{n} x_iy_i)^2$$
 
-$$=\sum_{i=1}^{n}\sum_{j=1}^{n} x_i^2 y_j^2+x_i^2 y_j^2-\sum_{i=1}^{n}\sum_{j=1}^{n} 2x_iy_ix_jy_j$$
+$$=\sum_{i=1}^{n}\sum_{j=1}^{n} x_i^2 y_j^2+x_j^2 y_i^2-\sum_{i=1}^{n}\sum_{j=1}^{n} 2x_iy_ix_jy_j$$
+
+$$=\sum_{i=1}^{n}\sum_{j=1}^{n} x_i^2 y_j^2-2x_iy_ix_jy_j+x_j^2 y_i^2$$
+
+$$=\sum_{i=1}^{n}\sum_{j=1}^{n} (x_iy_j-x_jy_i)^2$$
