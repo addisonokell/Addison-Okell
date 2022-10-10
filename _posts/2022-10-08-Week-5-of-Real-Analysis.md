@@ -18,7 +18,9 @@ $$\|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k\|+\|\sum_{k=1}^{N} a_k-L\| <
 
 Thus $\sum_{k=1}^{\infty} a_{\sigma(k)} = L$.
 
-We started this week with a brief summary of Linear Algebra. The main points we discussed were the eculdiean norm, Cauchy-Schwarz ineqauilty, the triangle ineqauilty and orthonormal sets. Breifly, the eculdian norm is the regular norm to mesure distance in a vector space. It is the equation 
+We then stated the Rearragnemnt Rheorem that says if a series is condionally convergent then for every real number $L$ there is a rearrganment of the series that converges to L.
+
+We then moved to the basic topology of $\mathbb{R}^n$, starting with a review of Linear Algebra. The main points we discussed were the eculdiean norm, Cauchy-Schwarz ineqauilty, the triangle ineqauilty and orthonormal sets. Breifly, the eculdian norm is the regular norm to mesure distance in a vector space. It is the equation 
 
 $$\|\vec{v}\|=(\sum_{i=1}^{n} \|v_i\|^2)^{\frac{1}{2}})$$ 
 
