@@ -14,7 +14,7 @@ $$\|\sum_{k=1}^{m} a_{\sigma(k)}-L\| = \|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}
 
 But notice $\|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k\|$ is nothing but the Cauchy criterion for our $\|a_k\|$ sequence so we have,
 
-$$\|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k\|+\|\sum_{k=1}^{N} a_k-L\| \leq $$\|\sum_{k=N+1}^{\infty} a_k\| + \frac{\epsilon}{2} < \epsilon $$
+$$\|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k\|+\|\sum_{k=1}^{N} a_k-L\| < \|\sum_{k=N+1}^{\infty} a_k\| + \frac{\epsilon}{2} < \epsilon $$
 
 Thus $\sum_{k=1}^{\infty} a_{\sigma(k)} = L$.
 
