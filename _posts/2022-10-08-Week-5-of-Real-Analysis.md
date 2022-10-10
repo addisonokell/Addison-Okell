@@ -22,9 +22,9 @@ We then stated the Rearragnemnt Rheorem that says if a series is condionally con
 
 We then moved to the basic topology of $\mathbb{R}^n$, starting with a review of Linear Algebra. The main points we discussed were the eculdiean norm, Cauchy-Schwarz ineqauilty, the triangle ineqauilty and orthonormal sets. Breifly, the eculdian norm is the regular norm to mesure distance in a vector space. It is the equation 
 
-$$\|\vec{v}\|=(\sum_{i=1}^{n} \|v_i\|^2)^{\frac{1}{2}})$$ 
+$$\|\vec{v}\|=(\sum_{i=1}^{n} \|v_i\|^2)^{\frac{1}{2}}$$ 
 
-where $v_i$ is the componets of the vector $\vec{v}$. This norm mesure the length of a vector. An important property of the norm is 
+where $v_i$ is the componets of the vector $\vec{v}$. This norm mesures the length of a vector. An important property of the norm is 
 
 $$\< \vec{x},\vec{x} \> =\|\vec{x}\|^2$$ 
 
