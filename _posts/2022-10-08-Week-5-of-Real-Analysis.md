@@ -30,11 +30,11 @@ $$< \vec{x},\vec{x} > =\|\vec{x}\|^2$$
 
 where $<\vec{x},\vec{x}>$ is the dot product of $\vec{x}$ with itself. The Cuachy-Shwarz inequailty then says that for any two vectors $\vec{x}, \vec{y}$ we have 
 
-$$\|<\vec{x},\vec{y}>\| \leq \|\vec{x}\|\|\vec{y}\|$$ 
+$$|<\vec{x},\vec{y}>| \leq \|\vec{x}\|\|\vec{y}\|$$ 
 
 The proof of this is quite simple, square both sides and multiple them by two. Then we can write,
 
-$$0 \leq 2\|\|\vec{x}\|\|\|\|\vec{y}\|\|^2-2\|<\vec{x},\vec{y}>\|^2$$ 
+$$0 \leq 2\|\vec{x}\|\|\vec{y}\|^2-2|<\vec{x},\vec{y}>|^2$$ 
 
 expanding this to summation notation we have,
 
