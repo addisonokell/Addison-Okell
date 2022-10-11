@@ -10,7 +10,9 @@ We started this week by finishing off the series unit of the course. We looked a
 
 Assume $\sum_{n=1}^{\infty} a_k = L$ and is absolutely convergent. Then we can use the Cauchy criterion, for some $\epsilon > 0$ we have $\|\sum_{k=N+1}^{\infty} \|a_k\|\| < \epsilon$, and since we have a absolute value on this inside we can drop it on the outside. Now we can choose $\epsilon = \frac{\epsilon}{2}$. We also can say that for large enough N $\|\sum_{k=1}^{N} a_k - L\| < \frac{\epsilon}{2}$. Now for the first $N$ terms, we can always find a point $M$ in the rearranged series such that all the terms up to $N$ will appear in the rearranged series. So for any $m \geq M$ we have,
 
-$$|\sum_{k=1}^{m} a_{\sigma(k)}-L| = |\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k+\sum_{k=1}^{N} a_k-L| \leq |\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k|+|\sum_{k=1}^{N} a_k-L|$$
+$$|\sum_{k=1}^{m} a_{\sigma(k)}-L| = |\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k+\sum_{k=1}^{N} a_k-L| $$
+
+$$\leq |\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k|+|\sum_{k=1}^{N} a_k-L|$$
 
 But notice $\|\sum_{k=1}^{m} a_{\sigma(k)}-\sum_{k=1}^{N} a_k\|$ is nothing but the Cauchy criterion for our $\|a_k\|$ sequence so we have,
 
